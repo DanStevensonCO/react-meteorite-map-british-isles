@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -26,6 +26,18 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.leaflet-container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 800px;
+}
+
+.leaflet-popup-content p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 @keyframes App-logo-spin {
