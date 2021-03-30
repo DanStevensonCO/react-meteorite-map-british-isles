@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <h1>British Isles meteorite tracker</h1>
+        <h1>Map of meteorites landed in the British Isles</h1>
     )
 }
 
