@@ -7,7 +7,7 @@ class LeafletMap extends React.Component {
     
     render(){
         const { meteorites } = this.props
-        console.log(meteorites)
+        // console.log(meteorites)
     
         const position = [54.5, -2]
         // const position = [51.783330, -1.783330]
@@ -30,7 +30,7 @@ class LeafletMap extends React.Component {
                             yearLanded = meteorite.year.slice(0, 4)
                         } 
 
-                        console.log(meteorite.name, yearLanded)
+                        // console.log(meteorite.name, yearLanded)
 
                         let mass = "Unknown"
 
