@@ -9,7 +9,7 @@ class LeafletMap extends React.Component {
         const { meteorites } = this.props
         // console.log(meteorites)
     
-        const position = [54.5, -2]
+        const position = [54, -2]
         // const position = [51.783330, -1.783330]
 
         return (
